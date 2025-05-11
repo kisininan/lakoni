@@ -1,0 +1,200 @@
+<!doctype html>
+<html ⚡ lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Berita Hari Ini - Portal Berita Terkini</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="https://example.com">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  
+  <style amp-custom>
+    :root {
+      --primary-color: #1a73e8;
+      --secondary-color: #f8f9fa;
+      --text-color: #333;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+
+    .main-content {
+      margin-top: 80px;
+      padding: 20px;
+    }
+
+    .featured-article {
+      margin-bottom: 2rem;
+    }
+
+    amp-img {
+      background: #f4f4f4;
+    }
+
+    .article-title {
+      font-size: 2rem;
+      margin: 1rem 0;
+      color: var(--text-color);
+    }
+
+    .article-meta {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .article-content {
+      line-height: 1.6;
+      color: var(--text-color);
+      margin-bottom: 2rem;
+    }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .news-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: var(--secondary-color);
+      padding: 2rem;
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .article-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">BeritaHariIni</div>
+    <amp-sidebar id="sidebar" layout="nodisplay">
+      <nav>
+        <a href="#">Berita Utama</a>
+        <a href="#">Politik</a>
+        <a href="#">Ekonomi</a>
+        <a href="#">Teknologi</a>
+      </nav>
+    </amp-sidebar>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Featured Article -->
+    <article class="featured-article">
+      <amp-img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc" 
+               width="1200" 
+               height="800" 
+               layout="responsive" 
+               alt="5G Tower">
+      </amp-img>
+      <h1 class="article-title">Pemerintah Targetkan Jaringan 5G Merata di Seluruh Indonesia Tahun 2024</h1>
+      <div class="article-meta">
+        <span>Kategori: Teknologi</span> | 
+        <span>Reporter: John Doe</span> | 
+        <span>15 Oktober 2023</span>
+      </div>
+      <div class="article-content">
+        <p>Pemerintah Indonesia melalui Kementerian Komunikasi dan Informatika (Kominfo) mengumumkan percepatan pembangunan infrastruktur 5G di seluruh wilayah Indonesia. Targetnya, hingga akhir 2024, 90% wilayah populasi sudah bisa menikmati jaringan generasi kelima ini.</p>
+
+        <amp-img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc"
+                 width="800"
+                 height="600"
+                 layout="responsive"
+                 alt="Smartphone 5G"
+                 class="mt-2">
+        </amp-img>
+
+        <p>Menteri Kominfo Johnny G. Plate menyatakan bahwa implementasi 5G akan menjadi game changer bagi perkembangan ekonomi digital Indonesia. "Kami sudah menyiapkan peta jalan yang komprehensif, termasuk alokasi frekuensi dan kerja sama dengan operator seluler," ujarnya dalam konferensi pers di Jakarta.</p>
+      </div>
+    </article>
+
+    <!-- News Grid -->
+    <div class="news-grid">
+      <article class="news-card">
+        <amp-img src="https://images.unsplash.com/photo-1612178537259-8a4d6d201fa5"
+                 width="400"
+                 height="300"
+                 layout="responsive"
+                 alt="Harga BBM">
+        </amp-img>
+        <div class="p-3">
+          <span class="category-tag">Ekonomi</span>
+          <h2 class="article-title">Kenaikan Harga BBM Diprediksi Pengaruhi Inflasi Kuartal IV</h2>
+          <p class="article-excerpt">Analis memprediksi kenaikan harga BBM bersubsidi akan memberikan tekanan inflasi sebesar 0.5-0.8% pada bulan depan.</p>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <amp-img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9"
+                 width="400"
+                 height="300"
+                 layout="responsive"
+                 alt="Pemilu 2024">
+        </amp-img>
+        <div class="p-3">
+          <span class="category-tag">Politik</span>
+          <h2 class="article-title">KPU Tetapkan Jadwal Debat Publik Capres-Cawapres</h2>
+          <p class="article-excerpt">Terdapat lima sesi debat publik yang akan digelar mulai November 2023 hingga Februari 2024.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2023 BeritaHariIni - All Rights Reserved</p>
+    <p>Redaksi: redaksi@beritahariini.com</p>
+  </footer>
+
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+      {
+        "vars": {
+          "gtag_id": "UA-XXXXX-Y",
+          "config": {
+            "UA-XXXXX-Y": { "groups": "default" }
+          }
+        }
+      }
+    </script>
+  </amp-analytics>
+</body>
+</html>
